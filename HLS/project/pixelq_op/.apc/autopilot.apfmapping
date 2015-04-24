@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="pixel_op.cpp" path="C:\AVNET_ZED_HDMI\pixelq_op\pixel_op.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="test_main.cpp" path="C:\AVNET_ZED_HDMI\pixelq_op\test_main.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>
