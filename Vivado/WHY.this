@@ -1,0 +1,4 @@
+All Xilinx HLS video library example (Sobel) depends VDMA IP to transfer FrameBuffer from memory.
+But how about if we need live processing?
+
+This is the try, and here you are.

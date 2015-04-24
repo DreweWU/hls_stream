@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Webtalk v2014.4 (64-bit)
+# SW Build 1071353 on Tue Nov 18 17:18:21 MST 2014
+# 
+# Start of session at: Fri Apr 24 23:45:37 2015
+# Process ID: 6852
+# Log file: C:/AVNET_ZED_HDMI/example.hls/example.hls.sdk/webtalk/webtalk.log
+# Journal file: C:/AVNET_ZED_HDMI/example.hls/example.hls.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

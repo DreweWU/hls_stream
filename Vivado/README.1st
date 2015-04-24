@@ -1,0 +1,8 @@
+You may hit repository relative path problem.
+Here is folder paths in my workstation.
+
+Root Directory - C:\AVNET_ZED_HDMI\
+Avnet ZedBoard HDMI IP - C:\AVNET_ZED_HDMI\2014_4.1\avnet_zed_hdmi_core\
+Vivado HLS project - C:\AVNET_ZED_HDMI\pixelq_op\
+
+And put Vivado example project under C:\AVNET_ZED_HDMI\

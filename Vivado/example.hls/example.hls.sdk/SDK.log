@@ -1,0 +1,47 @@
+22:14:44 INFO  : Processing command line option -hwspec C:/AVNET_ZED_HDMI/testing.pixelq_op/testing.pixelq_op.sdk/tutorial_wrapper.hdf.
+22:14:50 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+22:15:17 INFO  : BSP Project P/standalone_bsp_0 has been successfully migrated.
+22:16:13 INFO  : Saving repository preferences.
+22:16:13 INFO  : Reading in cores from local repositories: 
+		 C:\AVNET_ZED_HDMI\pixelq_op\solution2
+22:16:13 INFO  : Cleaning BSP projects in the workspace.
+22:16:16 INFO  : Saving repository preferences.
+22:16:27 INFO  : BSP Project P/standalone_bsp_0 has been successfully migrated.
+22:31:40 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:31:40 INFO  : Memory regions updated for context APU
+22:31:41 INFO  : Application is downloaded for ps7_cortexa9_0. (C:\AVNET_ZED_HDMI\testing.pixelq_op\testing.pixelq_op.sdk\hi_PixelqOp\Debug\hi_PixelqOp.elf)
+22:34:50 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:34:52 INFO  : Memory regions updated for context APU
+22:34:52 INFO  : Application is downloaded for ps7_cortexa9_0. (C:\AVNET_ZED_HDMI\testing.pixelq_op\testing.pixelq_op.sdk\hi_PixelqOp\Debug\hi_PixelqOp.elf)
+23:34:55 INFO  : Processing command line option -hwspec C:/AVNET_ZED_HDMI/example.hls/example.hls.sdk/tutorial_wrapper.hdf.
+23:34:56 WARN  : Unable to obtain port 2450 for use by XSDB Server, java.net.SocketException: Unrecognized Windows Sockets error: 0: JVM_Bind
+23:34:57 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2457
+23:34:57 INFO  : Restoring local repository preferences: 
+		 C:\AVNET_ZED_HDMI\pixelq_op\solution2
+23:34:57 ERROR :  [Hsi 55-1550] Repository Directory C:\AVNET_ZED_HDMI\pixelq_op\solution2 doesn't exist in the disk
+23:34:57 ERROR : Internal error. Unable to add C:\AVNET_ZED_HDMI\pixelq_op\solution2 as a repository.
+23:36:03 ERROR :  [Hsi 55-1594] Core pixelq_op_top of version 1.0 not found in repositories
+23:36:04 ERROR :  [Hsi 55-1594] Core pixelq_op_top of version 1.0 not found in repositories
+ [Hsi 55-1594] Core pixelq_op_top of version 1.0 not found in repositories
+ [Hsi 55-1594] Core pixelq_op_top of version 1.0 not found in repositories
+ [Hsi 55-1430] Driver Name is empty
+23:36:04 ERROR :  [Hsi 55-1594] Core pixelq_op_top of version 1.0 not found in repositories
+ [Hsi 55-1594] Core pixelq_op_top of version 1.0 not found in repositories
+ [Hsi 55-1546] Processor Instance  doesn't exist in Xml/HwDb
+23:36:57 INFO  : BSP Project P/standalone_bsp_1 has been successfully migrated.
+23:41:06 INFO  : Saving repository preferences.
+23:41:06 INFO  : Reading in cores from local repositories: 
+		 C:\AVNET_ZED_HDMI\pixelq_op
+23:41:06 INFO  : Cleaning BSP projects in the workspace.
+23:41:07 INFO  : Saving repository preferences.
+23:43:45 INFO  : Processing command line option -hwspec C:/AVNET_ZED_HDMI/example.hls/example.hls.sdk/tutorial_wrapper.hdf.
+23:43:46 WARN  : Unable to obtain port 2450 for use by XSDB Server, java.net.SocketException: Unrecognized Windows Sockets error: 0: JVM_Bind
+23:43:46 INFO  : Checking for hwspec changes in the project tutorial_wrapper_hw_platform_1.
+23:43:47 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2457
+23:43:47 INFO  : Restoring local repository preferences: 
+		 C:\AVNET_ZED_HDMI\pixelq_op
+23:44:13 INFO  : BSP Project P/standalone_bsp_1 has been successfully migrated.
+23:44:28 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\AVNET_ZED_HDMI\testing.pixelq_op\testing.pixelq_op.sdk\standalone_bsp_0\system.mss
+23:44:28 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\AVNET_ZED_HDMI\testing.pixelq_op\testing.pixelq_op.sdk\standalone_bsp_0\system.mss
+23:44:28 WARN  :  [Hsi 55-1559] Software Design already exists with Name C:\AVNET_ZED_HDMI\testing.pixelq_op\testing.pixelq_op.sdk\standalone_bsp_0\system.mss
+ [Hsi 55-1559] Software Design already exists with Name C:\AVNET_ZED_HDMI\testing.pixelq_op\testing.pixelq_op.sdk\standalone_bsp_0\system.mss

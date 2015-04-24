@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<Project Version="1" Minor="0">
+	<BUILD_NUMBER Name="1149489"/>
+	<FULL_BUILD Name="SW Build 1149489 on Thu Feb 19 16:23:09 MST 2015"/>
+	<MODE Name="Pre-Synthesis"/>
+	<SYSTEMINFO BOARD="em.avnet.com:zed:part0:1.0" ARCH="zynq" PACKAGE="clg484" DEVICE="7z020" SPEED="-1" LUT="" FF="" BRAM="" DSP=""/>
+	<HIERARCHY Name="tutorial_i"/>
+	<File Type="PS_FSBL_INIT" Name="ps7_init.c" ModTime="1429883821"/>
+	<File Type="PS_FSBL_INIT" Name="ps7_init.h" ModTime="1429883818"/>
+	<File Type="PS_FSBL_INIT_GPL" Name="ps7_init_gpl.c" ModTime="1429883821"/>
+	<File Type="PS_FSBL_INIT_GPL" Name="ps7_init_gpl.h" ModTime="1429883818"/>
+	<File Type="PS_XMD_INIT" Name="ps7_init.tcl" ModTime="1429883821"/>
+	<File Type="PS_INIT_HELP" Name="ps7_init.html" ModTime="1429883821"/>
+	<File Type="BD_TCL" Name="pixelq_op_top.tcl" ModTime="1429883562"/>
+	<File Type="HW_HANDOFF" Name="tutorial.hwh" ModTime="1429883850"/>
+	<File Type="BD_TCL" Name="tutorial_bd.tcl" ModTime="1429883850"/>
+</Project>
+

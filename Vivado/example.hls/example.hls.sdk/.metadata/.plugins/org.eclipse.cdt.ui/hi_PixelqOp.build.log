@@ -1,0 +1,7 @@
+23:45:33 **** Clean-only build of configuration Debug for project hi_PixelqOp ****
+make clean 
+rm -rf  ./src/helloworld.o ./src/platform.o ./src/video_frame_buffer.o ./src/video_generator.o ./src/video_resolution.o ./src/zed_hdmi_display.o ./src/zed_iic_axi.o  ./src/helloworld.d ./src/platform.d ./src/video_frame_buffer.d ./src/video_generator.d ./src/video_resolution.d ./src/zed_hdmi_display.d ./src/zed_iic_axi.d  hi_PixelqOp.elf.size  hi_PixelqOp.elf
+ 
+
+23:45:33 Build Finished (took 141ms)
+

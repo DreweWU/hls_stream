@@ -1,0 +1,1069 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hwsession version="1" minor="1">
+  <device name="xc7z020_1" gui_info=""/>
+  <ObjectList object_type="hw_device" gui_info="">
+    <Object name="xc7z020_1" gui_info="">
+      <Properties Property="PROBES.FILE" value="$_project_name_.runs/impl_1/debug_nets.ltx"/>
+      <Properties Property="PROGRAM.HW_BITSTREAM" value="$_project_name_.runs/impl_1/tutorial_wrapper.bit"/>
+    </Object>
+  </ObjectList>
+  <ObjectList object_type="hw_ila" gui_info="">
+    <Object name="u_ila_0" gui_info="">
+      <Properties Property="CONTROL.TRIGGER_CONDITION" value="AND"/>
+      <Properties Property="CORE_REFRESH_RATE_MS" value="500"/>
+    </Object>
+    <Object name="u_ila_0_0" gui_info="">
+      <Properties Property="CONTROL.TRIGGER_CONDITION" value="AND"/>
+      <Properties Property="CORE_REFRESH_RATE_MS" value="500"/>
+    </Object>
+    <Object name="u_ila_1" gui_info="">
+      <Properties Property="CONTROL.TRIGGER_CONDITION" value="AND"/>
+      <Properties Property="CORE_REFRESH_RATE_MS" value="500"/>
+    </Object>
+    <Object name="u_ila_1_0" gui_info="">
+      <Properties Property="CONTROL.TRIGGER_CONDITION" value="AND"/>
+      <Properties Property="CORE_REFRESH_RATE_MS" value="500"/>
+    </Object>
+  </ObjectList>
+  <probeset name="hw project" active="false">
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_2"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+      </probeOptions>
+      <nets>
+        <net name="tutorial_i/zed_hdmi_display/axi_vdma_0_M_AXIS_MM2S_TDATA[31]"/>
+        <net name="tutorial_i/zed_hdmi_display/axi_vdma_0_M_AXIS_MM2S_TDATA[30]"/>
+        <net name="tutorial_i/zed_hdmi_display/axi_vdma_0_M_AXIS_MM2S_TDATA[29]"/>
+        <net name="tutorial_i/zed_hdmi_display/axi_vdma_0_M_AXIS_MM2S_TDATA[28]"/>
+        <net name="tutorial_i/zed_hdmi_display/axi_vdma_0_M_AXIS_MM2S_TDATA[27]"/>
+        <net name="tutorial_i/zed_hdmi_display/axi_vdma_0_M_AXIS_MM2S_TDATA[26]"/>
+        <net name="tutorial_i/zed_hdmi_display/axi_vdma_0_M_AXIS_MM2S_TDATA[25]"/>
+        <net name="tutorial_i/zed_hdmi_display/axi_vdma_0_M_AXIS_MM2S_TDATA[24]"/>
+        <net name="tutorial_i/zed_hdmi_display/axi_vdma_0_M_AXIS_MM2S_TDATA[23]"/>
+        <net name="tutorial_i/zed_hdmi_display/axi_vdma_0_M_AXIS_MM2S_TDATA[22]"/>
+        <net name="tutorial_i/zed_hdmi_display/axi_vdma_0_M_AXIS_MM2S_TDATA[21]"/>
+        <net name="tutorial_i/zed_hdmi_display/axi_vdma_0_M_AXIS_MM2S_TDATA[20]"/>
+        <net name="tutorial_i/zed_hdmi_display/axi_vdma_0_M_AXIS_MM2S_TDATA[19]"/>
+        <net name="tutorial_i/zed_hdmi_display/axi_vdma_0_M_AXIS_MM2S_TDATA[18]"/>
+        <net name="tutorial_i/zed_hdmi_display/axi_vdma_0_M_AXIS_MM2S_TDATA[17]"/>
+        <net name="tutorial_i/zed_hdmi_display/axi_vdma_0_M_AXIS_MM2S_TDATA[16]"/>
+        <net name="tutorial_i/zed_hdmi_display/axi_vdma_0_M_AXIS_MM2S_TDATA[15]"/>
+        <net name="tutorial_i/zed_hdmi_display/axi_vdma_0_M_AXIS_MM2S_TDATA[14]"/>
+        <net name="tutorial_i/zed_hdmi_display/axi_vdma_0_M_AXIS_MM2S_TDATA[13]"/>
+        <net name="tutorial_i/zed_hdmi_display/axi_vdma_0_M_AXIS_MM2S_TDATA[12]"/>
+        <net name="tutorial_i/zed_hdmi_display/axi_vdma_0_M_AXIS_MM2S_TDATA[11]"/>
+        <net name="tutorial_i/zed_hdmi_display/axi_vdma_0_M_AXIS_MM2S_TDATA[10]"/>
+        <net name="tutorial_i/zed_hdmi_display/axi_vdma_0_M_AXIS_MM2S_TDATA[9]"/>
+        <net name="tutorial_i/zed_hdmi_display/axi_vdma_0_M_AXIS_MM2S_TDATA[8]"/>
+        <net name="tutorial_i/zed_hdmi_display/axi_vdma_0_M_AXIS_MM2S_TDATA[7]"/>
+        <net name="tutorial_i/zed_hdmi_display/axi_vdma_0_M_AXIS_MM2S_TDATA[6]"/>
+        <net name="tutorial_i/zed_hdmi_display/axi_vdma_0_M_AXIS_MM2S_TDATA[5]"/>
+        <net name="tutorial_i/zed_hdmi_display/axi_vdma_0_M_AXIS_MM2S_TDATA[4]"/>
+        <net name="tutorial_i/zed_hdmi_display/axi_vdma_0_M_AXIS_MM2S_TDATA[3]"/>
+        <net name="tutorial_i/zed_hdmi_display/axi_vdma_0_M_AXIS_MM2S_TDATA[2]"/>
+        <net name="tutorial_i/zed_hdmi_display/axi_vdma_0_M_AXIS_MM2S_TDATA[1]"/>
+        <net name="tutorial_i/zed_hdmi_display/axi_vdma_0_M_AXIS_MM2S_TDATA[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq4&apos;hX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq4&apos;hX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_2"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq4&apos;hX"/>
+      </probeOptions>
+      <nets>
+        <net name="tutorial_i/zed_hdmi_display/axi_vdma_0_M_AXIS_MM2S_TKEEP[3]"/>
+        <net name="tutorial_i/zed_hdmi_display/axi_vdma_0_M_AXIS_MM2S_TKEEP[2]"/>
+        <net name="tutorial_i/zed_hdmi_display/axi_vdma_0_M_AXIS_MM2S_TKEEP[1]"/>
+        <net name="tutorial_i/zed_hdmi_display/axi_vdma_0_M_AXIS_MM2S_TKEEP[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;bX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;bX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_2"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;bX"/>
+      </probeOptions>
+      <nets>
+        <net name="tutorial_i/zed_hdmi_display/axi_vdma_0_M_AXIS_MM2S_TLAST"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;bX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;bX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_2"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;bX"/>
+      </probeOptions>
+      <nets>
+        <net name="tutorial_i/zed_hdmi_display/axi_vdma_0_M_AXIS_MM2S_TREADY"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;bX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;bX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_2"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;bX"/>
+      </probeOptions>
+      <nets>
+        <net name="tutorial_i/zed_hdmi_display/axi_vdma_0_M_AXIS_MM2S_TUSER"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;bX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;bX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_2"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;bX"/>
+      </probeOptions>
+      <nets>
+        <net name="tutorial_i/zed_hdmi_display/axi_vdma_0_M_AXIS_MM2S_TVALID"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq24&apos;hXX_XXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq24&apos;hXX_XXXX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_2"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq24&apos;hXX_XXXX"/>
+      </probeOptions>
+      <nets>
+        <net name="tutorial_i/zed_hdmi_display/axis_subset_converter_0_m_axis_TDATA[23]"/>
+        <net name="tutorial_i/zed_hdmi_display/axis_subset_converter_0_m_axis_TDATA[22]"/>
+        <net name="tutorial_i/zed_hdmi_display/axis_subset_converter_0_m_axis_TDATA[21]"/>
+        <net name="tutorial_i/zed_hdmi_display/axis_subset_converter_0_m_axis_TDATA[20]"/>
+        <net name="tutorial_i/zed_hdmi_display/axis_subset_converter_0_m_axis_TDATA[19]"/>
+        <net name="tutorial_i/zed_hdmi_display/axis_subset_converter_0_m_axis_TDATA[18]"/>
+        <net name="tutorial_i/zed_hdmi_display/axis_subset_converter_0_m_axis_TDATA[17]"/>
+        <net name="tutorial_i/zed_hdmi_display/axis_subset_converter_0_m_axis_TDATA[16]"/>
+        <net name="tutorial_i/zed_hdmi_display/axis_subset_converter_0_m_axis_TDATA[15]"/>
+        <net name="tutorial_i/zed_hdmi_display/axis_subset_converter_0_m_axis_TDATA[14]"/>
+        <net name="tutorial_i/zed_hdmi_display/axis_subset_converter_0_m_axis_TDATA[13]"/>
+        <net name="tutorial_i/zed_hdmi_display/axis_subset_converter_0_m_axis_TDATA[12]"/>
+        <net name="tutorial_i/zed_hdmi_display/axis_subset_converter_0_m_axis_TDATA[11]"/>
+        <net name="tutorial_i/zed_hdmi_display/axis_subset_converter_0_m_axis_TDATA[10]"/>
+        <net name="tutorial_i/zed_hdmi_display/axis_subset_converter_0_m_axis_TDATA[9]"/>
+        <net name="tutorial_i/zed_hdmi_display/axis_subset_converter_0_m_axis_TDATA[8]"/>
+        <net name="tutorial_i/zed_hdmi_display/axis_subset_converter_0_m_axis_TDATA[7]"/>
+        <net name="tutorial_i/zed_hdmi_display/axis_subset_converter_0_m_axis_TDATA[6]"/>
+        <net name="tutorial_i/zed_hdmi_display/axis_subset_converter_0_m_axis_TDATA[5]"/>
+        <net name="tutorial_i/zed_hdmi_display/axis_subset_converter_0_m_axis_TDATA[4]"/>
+        <net name="tutorial_i/zed_hdmi_display/axis_subset_converter_0_m_axis_TDATA[3]"/>
+        <net name="tutorial_i/zed_hdmi_display/axis_subset_converter_0_m_axis_TDATA[2]"/>
+        <net name="tutorial_i/zed_hdmi_display/axis_subset_converter_0_m_axis_TDATA[1]"/>
+        <net name="tutorial_i/zed_hdmi_display/axis_subset_converter_0_m_axis_TDATA[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;bX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;bX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_2"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;bX"/>
+      </probeOptions>
+      <nets>
+        <net name="tutorial_i/zed_hdmi_display/axis_subset_converter_0_m_axis_TLAST"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;bX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;bX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_2"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;bX"/>
+      </probeOptions>
+      <nets>
+        <net name="tutorial_i/zed_hdmi_display/axis_subset_converter_0_m_axis_TREADY"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;bX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;bX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_2"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;bX"/>
+      </probeOptions>
+      <nets>
+        <net name="tutorial_i/zed_hdmi_display/axis_subset_converter_0_m_axis_TUSER"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;bX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;bX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_2"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;bX"/>
+      </probeOptions>
+      <nets>
+        <net name="tutorial_i/zed_hdmi_display/axis_subset_converter_0_m_axis_TVALID"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_2"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+      </probeOptions>
+      <nets>
+        <net name="tutorial_i/zed_hdmi_display/example_0_B_TDATA[31]"/>
+        <net name="tutorial_i/zed_hdmi_display/example_0_B_TDATA[30]"/>
+        <net name="tutorial_i/zed_hdmi_display/example_0_B_TDATA[29]"/>
+        <net name="tutorial_i/zed_hdmi_display/example_0_B_TDATA[28]"/>
+        <net name="tutorial_i/zed_hdmi_display/example_0_B_TDATA[27]"/>
+        <net name="tutorial_i/zed_hdmi_display/example_0_B_TDATA[26]"/>
+        <net name="tutorial_i/zed_hdmi_display/example_0_B_TDATA[25]"/>
+        <net name="tutorial_i/zed_hdmi_display/example_0_B_TDATA[24]"/>
+        <net name="tutorial_i/zed_hdmi_display/example_0_B_TDATA[23]"/>
+        <net name="tutorial_i/zed_hdmi_display/example_0_B_TDATA[22]"/>
+        <net name="tutorial_i/zed_hdmi_display/example_0_B_TDATA[21]"/>
+        <net name="tutorial_i/zed_hdmi_display/example_0_B_TDATA[20]"/>
+        <net name="tutorial_i/zed_hdmi_display/example_0_B_TDATA[19]"/>
+        <net name="tutorial_i/zed_hdmi_display/example_0_B_TDATA[18]"/>
+        <net name="tutorial_i/zed_hdmi_display/example_0_B_TDATA[17]"/>
+        <net name="tutorial_i/zed_hdmi_display/example_0_B_TDATA[16]"/>
+        <net name="tutorial_i/zed_hdmi_display/example_0_B_TDATA[15]"/>
+        <net name="tutorial_i/zed_hdmi_display/example_0_B_TDATA[14]"/>
+        <net name="tutorial_i/zed_hdmi_display/example_0_B_TDATA[13]"/>
+        <net name="tutorial_i/zed_hdmi_display/example_0_B_TDATA[12]"/>
+        <net name="tutorial_i/zed_hdmi_display/example_0_B_TDATA[11]"/>
+        <net name="tutorial_i/zed_hdmi_display/example_0_B_TDATA[10]"/>
+        <net name="tutorial_i/zed_hdmi_display/example_0_B_TDATA[9]"/>
+        <net name="tutorial_i/zed_hdmi_display/example_0_B_TDATA[8]"/>
+        <net name="tutorial_i/zed_hdmi_display/example_0_B_TDATA[7]"/>
+        <net name="tutorial_i/zed_hdmi_display/example_0_B_TDATA[6]"/>
+        <net name="tutorial_i/zed_hdmi_display/example_0_B_TDATA[5]"/>
+        <net name="tutorial_i/zed_hdmi_display/example_0_B_TDATA[4]"/>
+        <net name="tutorial_i/zed_hdmi_display/example_0_B_TDATA[3]"/>
+        <net name="tutorial_i/zed_hdmi_display/example_0_B_TDATA[2]"/>
+        <net name="tutorial_i/zed_hdmi_display/example_0_B_TDATA[1]"/>
+        <net name="tutorial_i/zed_hdmi_display/example_0_B_TDATA[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq4&apos;hX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq4&apos;hX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_2"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq4&apos;hX"/>
+      </probeOptions>
+      <nets>
+        <net name="tutorial_i/zed_hdmi_display/example_0_B_TKEEP[3]"/>
+        <net name="tutorial_i/zed_hdmi_display/example_0_B_TKEEP[2]"/>
+        <net name="tutorial_i/zed_hdmi_display/example_0_B_TKEEP[1]"/>
+        <net name="tutorial_i/zed_hdmi_display/example_0_B_TKEEP[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;bX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;bX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_2"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;bX"/>
+      </probeOptions>
+      <nets>
+        <net name="tutorial_i/zed_hdmi_display/example_0_B_TLAST"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;bX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;bX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_2"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;bX"/>
+      </probeOptions>
+      <nets>
+        <net name="tutorial_i/zed_hdmi_display/example_0_B_TREADY"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;bX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;bX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_2"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;bX"/>
+      </probeOptions>
+      <nets>
+        <net name="tutorial_i/zed_hdmi_display/example_0_B_TUSER"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;bX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;bX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_2"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;bX"/>
+      </probeOptions>
+      <nets>
+        <net name="tutorial_i/zed_hdmi_display/example_0_B_TVALID"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq24&apos;hXX_XXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq24&apos;hXX_XXXX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq24&apos;hXX_XXXX"/>
+      </probeOptions>
+      <nets>
+        <net name="tutorial_i/zed_hdmi_display/filter_op_0_OUTPUT_STREAM_TDATA[23]"/>
+        <net name="tutorial_i/zed_hdmi_display/filter_op_0_OUTPUT_STREAM_TDATA[22]"/>
+        <net name="tutorial_i/zed_hdmi_display/filter_op_0_OUTPUT_STREAM_TDATA[21]"/>
+        <net name="tutorial_i/zed_hdmi_display/filter_op_0_OUTPUT_STREAM_TDATA[20]"/>
+        <net name="tutorial_i/zed_hdmi_display/filter_op_0_OUTPUT_STREAM_TDATA[19]"/>
+        <net name="tutorial_i/zed_hdmi_display/filter_op_0_OUTPUT_STREAM_TDATA[18]"/>
+        <net name="tutorial_i/zed_hdmi_display/filter_op_0_OUTPUT_STREAM_TDATA[17]"/>
+        <net name="tutorial_i/zed_hdmi_display/filter_op_0_OUTPUT_STREAM_TDATA[16]"/>
+        <net name="tutorial_i/zed_hdmi_display/filter_op_0_OUTPUT_STREAM_TDATA[15]"/>
+        <net name="tutorial_i/zed_hdmi_display/filter_op_0_OUTPUT_STREAM_TDATA[14]"/>
+        <net name="tutorial_i/zed_hdmi_display/filter_op_0_OUTPUT_STREAM_TDATA[13]"/>
+        <net name="tutorial_i/zed_hdmi_display/filter_op_0_OUTPUT_STREAM_TDATA[12]"/>
+        <net name="tutorial_i/zed_hdmi_display/filter_op_0_OUTPUT_STREAM_TDATA[11]"/>
+        <net name="tutorial_i/zed_hdmi_display/filter_op_0_OUTPUT_STREAM_TDATA[10]"/>
+        <net name="tutorial_i/zed_hdmi_display/filter_op_0_OUTPUT_STREAM_TDATA[9]"/>
+        <net name="tutorial_i/zed_hdmi_display/filter_op_0_OUTPUT_STREAM_TDATA[8]"/>
+        <net name="tutorial_i/zed_hdmi_display/filter_op_0_OUTPUT_STREAM_TDATA[7]"/>
+        <net name="tutorial_i/zed_hdmi_display/filter_op_0_OUTPUT_STREAM_TDATA[6]"/>
+        <net name="tutorial_i/zed_hdmi_display/filter_op_0_OUTPUT_STREAM_TDATA[5]"/>
+        <net name="tutorial_i/zed_hdmi_display/filter_op_0_OUTPUT_STREAM_TDATA[4]"/>
+        <net name="tutorial_i/zed_hdmi_display/filter_op_0_OUTPUT_STREAM_TDATA[3]"/>
+        <net name="tutorial_i/zed_hdmi_display/filter_op_0_OUTPUT_STREAM_TDATA[2]"/>
+        <net name="tutorial_i/zed_hdmi_display/filter_op_0_OUTPUT_STREAM_TDATA[1]"/>
+        <net name="tutorial_i/zed_hdmi_display/filter_op_0_OUTPUT_STREAM_TDATA[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;bX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;bX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;bX"/>
+      </probeOptions>
+      <nets>
+        <net name="tutorial_i/zed_hdmi_display/filter_op_0_OUTPUT_STREAM_TLAST"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;bX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;bX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;bX"/>
+      </probeOptions>
+      <nets>
+        <net name="tutorial_i/zed_hdmi_display/filter_op_0_OUTPUT_STREAM_TREADY"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;bX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;bX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;bX"/>
+      </probeOptions>
+      <nets>
+        <net name="tutorial_i/zed_hdmi_display/filter_op_0_OUTPUT_STREAM_TUSER"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;bX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;bX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;bX"/>
+      </probeOptions>
+      <nets>
+        <net name="tutorial_i/zed_hdmi_display/filter_op_0_OUTPUT_STREAM_TVALID"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+      </probeOptions>
+      <nets>
+        <net name="tutorial_i/zed_hdmi_display/linebuf_op_0_OUTPUT_STREAM_TDATA[31]"/>
+        <net name="tutorial_i/zed_hdmi_display/linebuf_op_0_OUTPUT_STREAM_TDATA[30]"/>
+        <net name="tutorial_i/zed_hdmi_display/linebuf_op_0_OUTPUT_STREAM_TDATA[29]"/>
+        <net name="tutorial_i/zed_hdmi_display/linebuf_op_0_OUTPUT_STREAM_TDATA[28]"/>
+        <net name="tutorial_i/zed_hdmi_display/linebuf_op_0_OUTPUT_STREAM_TDATA[27]"/>
+        <net name="tutorial_i/zed_hdmi_display/linebuf_op_0_OUTPUT_STREAM_TDATA[26]"/>
+        <net name="tutorial_i/zed_hdmi_display/linebuf_op_0_OUTPUT_STREAM_TDATA[25]"/>
+        <net name="tutorial_i/zed_hdmi_display/linebuf_op_0_OUTPUT_STREAM_TDATA[24]"/>
+        <net name="tutorial_i/zed_hdmi_display/linebuf_op_0_OUTPUT_STREAM_TDATA[23]"/>
+        <net name="tutorial_i/zed_hdmi_display/linebuf_op_0_OUTPUT_STREAM_TDATA[22]"/>
+        <net name="tutorial_i/zed_hdmi_display/linebuf_op_0_OUTPUT_STREAM_TDATA[21]"/>
+        <net name="tutorial_i/zed_hdmi_display/linebuf_op_0_OUTPUT_STREAM_TDATA[20]"/>
+        <net name="tutorial_i/zed_hdmi_display/linebuf_op_0_OUTPUT_STREAM_TDATA[19]"/>
+        <net name="tutorial_i/zed_hdmi_display/linebuf_op_0_OUTPUT_STREAM_TDATA[18]"/>
+        <net name="tutorial_i/zed_hdmi_display/linebuf_op_0_OUTPUT_STREAM_TDATA[17]"/>
+        <net name="tutorial_i/zed_hdmi_display/linebuf_op_0_OUTPUT_STREAM_TDATA[16]"/>
+        <net name="tutorial_i/zed_hdmi_display/linebuf_op_0_OUTPUT_STREAM_TDATA[15]"/>
+        <net name="tutorial_i/zed_hdmi_display/linebuf_op_0_OUTPUT_STREAM_TDATA[14]"/>
+        <net name="tutorial_i/zed_hdmi_display/linebuf_op_0_OUTPUT_STREAM_TDATA[13]"/>
+        <net name="tutorial_i/zed_hdmi_display/linebuf_op_0_OUTPUT_STREAM_TDATA[12]"/>
+        <net name="tutorial_i/zed_hdmi_display/linebuf_op_0_OUTPUT_STREAM_TDATA[11]"/>
+        <net name="tutorial_i/zed_hdmi_display/linebuf_op_0_OUTPUT_STREAM_TDATA[10]"/>
+        <net name="tutorial_i/zed_hdmi_display/linebuf_op_0_OUTPUT_STREAM_TDATA[9]"/>
+        <net name="tutorial_i/zed_hdmi_display/linebuf_op_0_OUTPUT_STREAM_TDATA[8]"/>
+        <net name="tutorial_i/zed_hdmi_display/linebuf_op_0_OUTPUT_STREAM_TDATA[7]"/>
+        <net name="tutorial_i/zed_hdmi_display/linebuf_op_0_OUTPUT_STREAM_TDATA[6]"/>
+        <net name="tutorial_i/zed_hdmi_display/linebuf_op_0_OUTPUT_STREAM_TDATA[5]"/>
+        <net name="tutorial_i/zed_hdmi_display/linebuf_op_0_OUTPUT_STREAM_TDATA[4]"/>
+        <net name="tutorial_i/zed_hdmi_display/linebuf_op_0_OUTPUT_STREAM_TDATA[3]"/>
+        <net name="tutorial_i/zed_hdmi_display/linebuf_op_0_OUTPUT_STREAM_TDATA[2]"/>
+        <net name="tutorial_i/zed_hdmi_display/linebuf_op_0_OUTPUT_STREAM_TDATA[1]"/>
+        <net name="tutorial_i/zed_hdmi_display/linebuf_op_0_OUTPUT_STREAM_TDATA[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;bX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;bX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;bX"/>
+      </probeOptions>
+      <nets>
+        <net name="tutorial_i/zed_hdmi_display/linebuf_op_0_OUTPUT_STREAM_TLAST"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;bX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;bX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;bX"/>
+      </probeOptions>
+      <nets>
+        <net name="tutorial_i/zed_hdmi_display/linebuf_op_0_OUTPUT_STREAM_TREADY"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;bX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;bX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;bX"/>
+      </probeOptions>
+      <nets>
+        <net name="tutorial_i/zed_hdmi_display/linebuf_op_0_OUTPUT_STREAM_TUSER"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;bX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;bX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;bX"/>
+      </probeOptions>
+      <nets>
+        <net name="tutorial_i/zed_hdmi_display/linebuf_op_0_OUTPUT_STREAM_TVALID"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq24&apos;hXX_XXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq24&apos;hXX_XXXX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq24&apos;hXX_XXXX"/>
+      </probeOptions>
+      <nets>
+        <net name="tutorial_i/zed_hdmi_display/pixel_op_0_video_out_stream_TDATA[23]"/>
+        <net name="tutorial_i/zed_hdmi_display/pixel_op_0_video_out_stream_TDATA[22]"/>
+        <net name="tutorial_i/zed_hdmi_display/pixel_op_0_video_out_stream_TDATA[21]"/>
+        <net name="tutorial_i/zed_hdmi_display/pixel_op_0_video_out_stream_TDATA[20]"/>
+        <net name="tutorial_i/zed_hdmi_display/pixel_op_0_video_out_stream_TDATA[19]"/>
+        <net name="tutorial_i/zed_hdmi_display/pixel_op_0_video_out_stream_TDATA[18]"/>
+        <net name="tutorial_i/zed_hdmi_display/pixel_op_0_video_out_stream_TDATA[17]"/>
+        <net name="tutorial_i/zed_hdmi_display/pixel_op_0_video_out_stream_TDATA[16]"/>
+        <net name="tutorial_i/zed_hdmi_display/pixel_op_0_video_out_stream_TDATA[15]"/>
+        <net name="tutorial_i/zed_hdmi_display/pixel_op_0_video_out_stream_TDATA[14]"/>
+        <net name="tutorial_i/zed_hdmi_display/pixel_op_0_video_out_stream_TDATA[13]"/>
+        <net name="tutorial_i/zed_hdmi_display/pixel_op_0_video_out_stream_TDATA[12]"/>
+        <net name="tutorial_i/zed_hdmi_display/pixel_op_0_video_out_stream_TDATA[11]"/>
+        <net name="tutorial_i/zed_hdmi_display/pixel_op_0_video_out_stream_TDATA[10]"/>
+        <net name="tutorial_i/zed_hdmi_display/pixel_op_0_video_out_stream_TDATA[9]"/>
+        <net name="tutorial_i/zed_hdmi_display/pixel_op_0_video_out_stream_TDATA[8]"/>
+        <net name="tutorial_i/zed_hdmi_display/pixel_op_0_video_out_stream_TDATA[7]"/>
+        <net name="tutorial_i/zed_hdmi_display/pixel_op_0_video_out_stream_TDATA[6]"/>
+        <net name="tutorial_i/zed_hdmi_display/pixel_op_0_video_out_stream_TDATA[5]"/>
+        <net name="tutorial_i/zed_hdmi_display/pixel_op_0_video_out_stream_TDATA[4]"/>
+        <net name="tutorial_i/zed_hdmi_display/pixel_op_0_video_out_stream_TDATA[3]"/>
+        <net name="tutorial_i/zed_hdmi_display/pixel_op_0_video_out_stream_TDATA[2]"/>
+        <net name="tutorial_i/zed_hdmi_display/pixel_op_0_video_out_stream_TDATA[1]"/>
+        <net name="tutorial_i/zed_hdmi_display/pixel_op_0_video_out_stream_TDATA[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;bX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;bX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;bX"/>
+      </probeOptions>
+      <nets>
+        <net name="tutorial_i/zed_hdmi_display/pixel_op_0_video_out_stream_TLAST"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;bX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;bX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;bX"/>
+      </probeOptions>
+      <nets>
+        <net name="tutorial_i/zed_hdmi_display/pixel_op_0_video_out_stream_TREADY"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;bX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;bX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;bX"/>
+      </probeOptions>
+      <nets>
+        <net name="tutorial_i/zed_hdmi_display/pixel_op_0_video_out_stream_TUSER"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;bX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;bX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;bX"/>
+      </probeOptions>
+      <nets>
+        <net name="tutorial_i/zed_hdmi_display/pixel_op_0_video_out_stream_TVALID"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq24&apos;hXX_XXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq24&apos;hXX_XXXX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq24&apos;hXX_XXXX"/>
+      </probeOptions>
+      <nets>
+        <net name="tutorial_i/zed_hdmi_display/pixelq_op_0_OUTPUT_STREAM_TDATA[23]"/>
+        <net name="tutorial_i/zed_hdmi_display/pixelq_op_0_OUTPUT_STREAM_TDATA[22]"/>
+        <net name="tutorial_i/zed_hdmi_display/pixelq_op_0_OUTPUT_STREAM_TDATA[21]"/>
+        <net name="tutorial_i/zed_hdmi_display/pixelq_op_0_OUTPUT_STREAM_TDATA[20]"/>
+        <net name="tutorial_i/zed_hdmi_display/pixelq_op_0_OUTPUT_STREAM_TDATA[19]"/>
+        <net name="tutorial_i/zed_hdmi_display/pixelq_op_0_OUTPUT_STREAM_TDATA[18]"/>
+        <net name="tutorial_i/zed_hdmi_display/pixelq_op_0_OUTPUT_STREAM_TDATA[17]"/>
+        <net name="tutorial_i/zed_hdmi_display/pixelq_op_0_OUTPUT_STREAM_TDATA[16]"/>
+        <net name="tutorial_i/zed_hdmi_display/pixelq_op_0_OUTPUT_STREAM_TDATA[15]"/>
+        <net name="tutorial_i/zed_hdmi_display/pixelq_op_0_OUTPUT_STREAM_TDATA[14]"/>
+        <net name="tutorial_i/zed_hdmi_display/pixelq_op_0_OUTPUT_STREAM_TDATA[13]"/>
+        <net name="tutorial_i/zed_hdmi_display/pixelq_op_0_OUTPUT_STREAM_TDATA[12]"/>
+        <net name="tutorial_i/zed_hdmi_display/pixelq_op_0_OUTPUT_STREAM_TDATA[11]"/>
+        <net name="tutorial_i/zed_hdmi_display/pixelq_op_0_OUTPUT_STREAM_TDATA[10]"/>
+        <net name="tutorial_i/zed_hdmi_display/pixelq_op_0_OUTPUT_STREAM_TDATA[9]"/>
+        <net name="tutorial_i/zed_hdmi_display/pixelq_op_0_OUTPUT_STREAM_TDATA[8]"/>
+        <net name="tutorial_i/zed_hdmi_display/pixelq_op_0_OUTPUT_STREAM_TDATA[7]"/>
+        <net name="tutorial_i/zed_hdmi_display/pixelq_op_0_OUTPUT_STREAM_TDATA[6]"/>
+        <net name="tutorial_i/zed_hdmi_display/pixelq_op_0_OUTPUT_STREAM_TDATA[5]"/>
+        <net name="tutorial_i/zed_hdmi_display/pixelq_op_0_OUTPUT_STREAM_TDATA[4]"/>
+        <net name="tutorial_i/zed_hdmi_display/pixelq_op_0_OUTPUT_STREAM_TDATA[3]"/>
+        <net name="tutorial_i/zed_hdmi_display/pixelq_op_0_OUTPUT_STREAM_TDATA[2]"/>
+        <net name="tutorial_i/zed_hdmi_display/pixelq_op_0_OUTPUT_STREAM_TDATA[1]"/>
+        <net name="tutorial_i/zed_hdmi_display/pixelq_op_0_OUTPUT_STREAM_TDATA[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;bX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;bX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;bX"/>
+      </probeOptions>
+      <nets>
+        <net name="tutorial_i/zed_hdmi_display/pixelq_op_0_OUTPUT_STREAM_TLAST"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;bX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;bX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;bX"/>
+      </probeOptions>
+      <nets>
+        <net name="tutorial_i/zed_hdmi_display/pixelq_op_0_OUTPUT_STREAM_TREADY"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;bX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;bX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;bX"/>
+      </probeOptions>
+      <nets>
+        <net name="tutorial_i/zed_hdmi_display/pixelq_op_0_OUTPUT_STREAM_TUSER"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;bX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;bX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;bX"/>
+      </probeOptions>
+      <nets>
+        <net name="tutorial_i/zed_hdmi_display/pixelq_op_0_OUTPUT_STREAM_TVALID"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;bX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;bX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_2"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;bX"/>
+      </probeOptions>
+      <nets>
+        <net name="tutorial_i/zed_hdmi_display/v_axi4s_vid_out_0_vid_io_out_ACTIVE_VIDEO"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq16&apos;hXXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq16&apos;hXXXX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_2"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq16&apos;hXXXX"/>
+      </probeOptions>
+      <nets>
+        <net name="tutorial_i/zed_hdmi_display/v_axi4s_vid_out_0_vid_io_out_DATA[15]"/>
+        <net name="tutorial_i/zed_hdmi_display/v_axi4s_vid_out_0_vid_io_out_DATA[14]"/>
+        <net name="tutorial_i/zed_hdmi_display/v_axi4s_vid_out_0_vid_io_out_DATA[13]"/>
+        <net name="tutorial_i/zed_hdmi_display/v_axi4s_vid_out_0_vid_io_out_DATA[12]"/>
+        <net name="tutorial_i/zed_hdmi_display/v_axi4s_vid_out_0_vid_io_out_DATA[11]"/>
+        <net name="tutorial_i/zed_hdmi_display/v_axi4s_vid_out_0_vid_io_out_DATA[10]"/>
+        <net name="tutorial_i/zed_hdmi_display/v_axi4s_vid_out_0_vid_io_out_DATA[9]"/>
+        <net name="tutorial_i/zed_hdmi_display/v_axi4s_vid_out_0_vid_io_out_DATA[8]"/>
+        <net name="tutorial_i/zed_hdmi_display/v_axi4s_vid_out_0_vid_io_out_DATA[7]"/>
+        <net name="tutorial_i/zed_hdmi_display/v_axi4s_vid_out_0_vid_io_out_DATA[6]"/>
+        <net name="tutorial_i/zed_hdmi_display/v_axi4s_vid_out_0_vid_io_out_DATA[5]"/>
+        <net name="tutorial_i/zed_hdmi_display/v_axi4s_vid_out_0_vid_io_out_DATA[4]"/>
+        <net name="tutorial_i/zed_hdmi_display/v_axi4s_vid_out_0_vid_io_out_DATA[3]"/>
+        <net name="tutorial_i/zed_hdmi_display/v_axi4s_vid_out_0_vid_io_out_DATA[2]"/>
+        <net name="tutorial_i/zed_hdmi_display/v_axi4s_vid_out_0_vid_io_out_DATA[1]"/>
+        <net name="tutorial_i/zed_hdmi_display/v_axi4s_vid_out_0_vid_io_out_DATA[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;bX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;bX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_2"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;bX"/>
+      </probeOptions>
+      <nets>
+        <net name="tutorial_i/zed_hdmi_display/v_axi4s_vid_out_0_vid_io_out_HSYNC"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;bX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;bX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_2"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;bX"/>
+      </probeOptions>
+      <nets>
+        <net name="tutorial_i/zed_hdmi_display/v_axi4s_vid_out_0_vid_io_out_VSYNC"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq24&apos;hXX_XXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq24&apos;hXX_XXXX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq24&apos;hXX_XXXX"/>
+      </probeOptions>
+      <nets>
+        <net name="tutorial_i/zed_hdmi_display/v_cfa_0_video_out_TDATA[23]"/>
+        <net name="tutorial_i/zed_hdmi_display/v_cfa_0_video_out_TDATA[22]"/>
+        <net name="tutorial_i/zed_hdmi_display/v_cfa_0_video_out_TDATA[21]"/>
+        <net name="tutorial_i/zed_hdmi_display/v_cfa_0_video_out_TDATA[20]"/>
+        <net name="tutorial_i/zed_hdmi_display/v_cfa_0_video_out_TDATA[19]"/>
+        <net name="tutorial_i/zed_hdmi_display/v_cfa_0_video_out_TDATA[18]"/>
+        <net name="tutorial_i/zed_hdmi_display/v_cfa_0_video_out_TDATA[17]"/>
+        <net name="tutorial_i/zed_hdmi_display/v_cfa_0_video_out_TDATA[16]"/>
+        <net name="tutorial_i/zed_hdmi_display/v_cfa_0_video_out_TDATA[15]"/>
+        <net name="tutorial_i/zed_hdmi_display/v_cfa_0_video_out_TDATA[14]"/>
+        <net name="tutorial_i/zed_hdmi_display/v_cfa_0_video_out_TDATA[13]"/>
+        <net name="tutorial_i/zed_hdmi_display/v_cfa_0_video_out_TDATA[12]"/>
+        <net name="tutorial_i/zed_hdmi_display/v_cfa_0_video_out_TDATA[11]"/>
+        <net name="tutorial_i/zed_hdmi_display/v_cfa_0_video_out_TDATA[10]"/>
+        <net name="tutorial_i/zed_hdmi_display/v_cfa_0_video_out_TDATA[9]"/>
+        <net name="tutorial_i/zed_hdmi_display/v_cfa_0_video_out_TDATA[8]"/>
+        <net name="tutorial_i/zed_hdmi_display/v_cfa_0_video_out_TDATA[7]"/>
+        <net name="tutorial_i/zed_hdmi_display/v_cfa_0_video_out_TDATA[6]"/>
+        <net name="tutorial_i/zed_hdmi_display/v_cfa_0_video_out_TDATA[5]"/>
+        <net name="tutorial_i/zed_hdmi_display/v_cfa_0_video_out_TDATA[4]"/>
+        <net name="tutorial_i/zed_hdmi_display/v_cfa_0_video_out_TDATA[3]"/>
+        <net name="tutorial_i/zed_hdmi_display/v_cfa_0_video_out_TDATA[2]"/>
+        <net name="tutorial_i/zed_hdmi_display/v_cfa_0_video_out_TDATA[1]"/>
+        <net name="tutorial_i/zed_hdmi_display/v_cfa_0_video_out_TDATA[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;bX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;bX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;bX"/>
+      </probeOptions>
+      <nets>
+        <net name="tutorial_i/zed_hdmi_display/v_cfa_0_video_out_TLAST"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;bX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;bX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;bX"/>
+      </probeOptions>
+      <nets>
+        <net name="tutorial_i/zed_hdmi_display/v_cfa_0_video_out_TREADY"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;bX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;bX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;bX"/>
+      </probeOptions>
+      <nets>
+        <net name="tutorial_i/zed_hdmi_display/v_cfa_0_video_out_TUSER"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;bX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;bX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;bX"/>
+      </probeOptions>
+      <nets>
+        <net name="tutorial_i/zed_hdmi_display/v_cfa_0_video_out_TVALID"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq24&apos;hXX_XXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq24&apos;hXX_XXXX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq24&apos;hXX_XXXX"/>
+      </probeOptions>
+      <nets>
+        <net name="tutorial_i/zed_hdmi_display/v_tpg_0_video_out_TDATA[23]"/>
+        <net name="tutorial_i/zed_hdmi_display/v_tpg_0_video_out_TDATA[22]"/>
+        <net name="tutorial_i/zed_hdmi_display/v_tpg_0_video_out_TDATA[21]"/>
+        <net name="tutorial_i/zed_hdmi_display/v_tpg_0_video_out_TDATA[20]"/>
+        <net name="tutorial_i/zed_hdmi_display/v_tpg_0_video_out_TDATA[19]"/>
+        <net name="tutorial_i/zed_hdmi_display/v_tpg_0_video_out_TDATA[18]"/>
+        <net name="tutorial_i/zed_hdmi_display/v_tpg_0_video_out_TDATA[17]"/>
+        <net name="tutorial_i/zed_hdmi_display/v_tpg_0_video_out_TDATA[16]"/>
+        <net name="tutorial_i/zed_hdmi_display/v_tpg_0_video_out_TDATA[15]"/>
+        <net name="tutorial_i/zed_hdmi_display/v_tpg_0_video_out_TDATA[14]"/>
+        <net name="tutorial_i/zed_hdmi_display/v_tpg_0_video_out_TDATA[13]"/>
+        <net name="tutorial_i/zed_hdmi_display/v_tpg_0_video_out_TDATA[12]"/>
+        <net name="tutorial_i/zed_hdmi_display/v_tpg_0_video_out_TDATA[11]"/>
+        <net name="tutorial_i/zed_hdmi_display/v_tpg_0_video_out_TDATA[10]"/>
+        <net name="tutorial_i/zed_hdmi_display/v_tpg_0_video_out_TDATA[9]"/>
+        <net name="tutorial_i/zed_hdmi_display/v_tpg_0_video_out_TDATA[8]"/>
+        <net name="tutorial_i/zed_hdmi_display/v_tpg_0_video_out_TDATA[7]"/>
+        <net name="tutorial_i/zed_hdmi_display/v_tpg_0_video_out_TDATA[6]"/>
+        <net name="tutorial_i/zed_hdmi_display/v_tpg_0_video_out_TDATA[5]"/>
+        <net name="tutorial_i/zed_hdmi_display/v_tpg_0_video_out_TDATA[4]"/>
+        <net name="tutorial_i/zed_hdmi_display/v_tpg_0_video_out_TDATA[3]"/>
+        <net name="tutorial_i/zed_hdmi_display/v_tpg_0_video_out_TDATA[2]"/>
+        <net name="tutorial_i/zed_hdmi_display/v_tpg_0_video_out_TDATA[1]"/>
+        <net name="tutorial_i/zed_hdmi_display/v_tpg_0_video_out_TDATA[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq8&apos;hXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq8&apos;hXX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq8&apos;hXX"/>
+      </probeOptions>
+      <nets>
+        <net name="tutorial_i/zed_hdmi_display/v_tpg_0_video_out_TDATA[7]"/>
+        <net name="tutorial_i/zed_hdmi_display/v_tpg_0_video_out_TDATA[6]"/>
+        <net name="tutorial_i/zed_hdmi_display/v_tpg_0_video_out_TDATA[5]"/>
+        <net name="tutorial_i/zed_hdmi_display/v_tpg_0_video_out_TDATA[4]"/>
+        <net name="tutorial_i/zed_hdmi_display/v_tpg_0_video_out_TDATA[3]"/>
+        <net name="tutorial_i/zed_hdmi_display/v_tpg_0_video_out_TDATA[2]"/>
+        <net name="tutorial_i/zed_hdmi_display/v_tpg_0_video_out_TDATA[1]"/>
+        <net name="tutorial_i/zed_hdmi_display/v_tpg_0_video_out_TDATA[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;bX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;bX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;bX"/>
+      </probeOptions>
+      <nets>
+        <net name="tutorial_i/zed_hdmi_display/v_tpg_0_video_out_TLAST"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;bX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;bX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;bX"/>
+      </probeOptions>
+      <nets>
+        <net name="tutorial_i/zed_hdmi_display/v_tpg_0_video_out_TREADY"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;bX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;bX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;bX"/>
+      </probeOptions>
+      <nets>
+        <net name="tutorial_i/zed_hdmi_display/v_tpg_0_video_out_TUSER"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;bX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;bX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;bX"/>
+      </probeOptions>
+      <nets>
+        <net name="tutorial_i/zed_hdmi_display/v_tpg_0_video_out_TVALID"/>
+      </nets>
+    </probe>
+  </probeset>
+</hwsession>
