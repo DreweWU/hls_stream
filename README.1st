@@ -1,0 +1,8 @@
+Documents what you need here.
+
+ - ZedBoard
+ - IP avnet_zed_hdmi_core
+   * In Reference Design - Zedboard HDMI Display Controller Tutorial for Vivado using Xilinx VIPP (from zedboard.org)
+   * Link - http://zedboard.org/sites/default/files/design/ZedBoard_HDMI_Display_Tutorial_2014_1_20140623.zip
+ - Vivado 2014.4 (System Edition)
+ - Vivado HLS License 
